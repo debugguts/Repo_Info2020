@@ -17,3 +17,10 @@ datos_limpios = limpiar_datos(datos_sucios)
 print("\n--- Limpieza de datos ---")
 print("Datos originales:", datos_sucios)
 print("Datos limpios:   ", datos_limpios)
+
+def calcular_rango(lista):
+    """Devuelve el rango (max - min) de la lista."""
+    return max(lista) - min(lista)
+
+print("\n--- Rango ---")
+print("Rango de datos limpios:", calcular_rango(datos_limpios))
