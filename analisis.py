@@ -24,3 +24,5 @@ def calcular_rango(lista):
 
 print("\n--- Rango ---")
 print("Rango de datos limpios:", calcular_rango(datos_limpios))
+
+print ("FIN")
